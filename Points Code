@@ -1,0 +1,17 @@
+
+int main.c
+{
+collison_box itemBox;
+itemBox.x=( x coor of item);
+itemBox.y=(y coor of item);
+ItemBox.w=60;
+itemBox.h=60;
+itemPic = CCSS_load_and_resize_image("./resources/img/cherry.png", 1, 1);
+}
+Int points = 0
+{ 
+If (collide(Pbox, itemBox)==1){
+         Points+=500;
+         itemBox.x=60;
+         itemBox.y=60;
+}
